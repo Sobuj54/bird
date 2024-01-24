@@ -187,8 +187,8 @@ const NavigationMenu = () => {
     setActiveMenu(null);
   };
 
-  const renderMenu = (item) => {
-    const { title, menu, options } = item;
+  const renderMenu = (MenuItem) => {
+    const { title, menu, options } = MenuItem;
 
     return (
       <div

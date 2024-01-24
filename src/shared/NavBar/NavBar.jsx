@@ -1,3 +1,4 @@
+import ActionButtons from "../../components/NavigationMenu/ActionButtons";
 import NavigationMenu from "../../components/NavigationMenu/NavigationMenu";
 import Logo from "../../components/logo/Logo";
 
@@ -11,6 +12,7 @@ const NavBar = () => {
       </div>
       <div className="flex items-center">
         <NavigationMenu></NavigationMenu>
+        <ActionButtons></ActionButtons>
       </div>
     </div>
   );
