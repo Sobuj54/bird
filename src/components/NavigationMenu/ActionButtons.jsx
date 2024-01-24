@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { X, AlignJustify } from "lucide-react";
 import { Link } from "react-router-dom";
+import DropDownMenu from "./DropDownMenu";
 
 const ActionButtons = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -65,10 +66,10 @@ sm:px-10
             duration-300
             shadow-md
             hover:shadow-indigo-300
-            w-36
-            
+            w-40
+            text-white
             ">
-            Get Bird for Free
+            Get Clove for Free
           </div>
         </Link>
         <Link to={"/contact"}>
@@ -115,7 +116,7 @@ sm:px-10
         </div>
       )}
 
-      {isDropdownVisible && <DropdownMenu onClose={closeDropdown} />}
+      {isDropdownVisible && <DropDownMenu onClose={closeDropdown} />}
     </div>
   );
 };
