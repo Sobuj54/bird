@@ -69,7 +69,7 @@ sm:px-10
             w-40
             text-white
             ">
-            Get Clove for Free
+            Get Clover for Free
           </div>
         </Link>
         <Link to={"/contact"}>

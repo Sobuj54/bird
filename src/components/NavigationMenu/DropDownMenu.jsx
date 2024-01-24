@@ -25,7 +25,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@radix-ui/react-accordion";
+} from "./Accordion";
 
 const DropDownMenu = ({ onClose }) => {
   const handleLinkClick = () => {
@@ -321,7 +321,7 @@ const DropDownMenu = ({ onClose }) => {
               shadow-md
               hover:shadow-indigo-300
               ">
-              Sign in to Bird
+              Sign in to Clover
             </button>
           </Link>
 
@@ -342,7 +342,7 @@ const DropDownMenu = ({ onClose }) => {
               hover:shadow-indigo-300
 
               ">
-              Try Bird for Free
+              Try Clover for Free
             </button>
           </Link>
         </div>
